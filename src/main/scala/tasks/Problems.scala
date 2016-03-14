@@ -7,18 +7,66 @@ import com.typesafe.config.ConfigFactory
 import scala.collection.mutable.Builder
 import scala.collection.{mutable, immutable}
 
-object Problems extends App{
+object Problems extends App {
   //val myCfg =  ConfigFactory.parseFile(new File("worker/src/main/resources/reference.conf"))
 
-  val config = ConfigFactory.load("application.conf")//"worker/src/main/resources")
+  val config = ConfigFactory.load("application.conf")
+  //"worker/src/main/resources")
   val config2 = ConfigFactory.load("fu.conf")
   val root2 = config2.getString("akka.actor.provider")
   val root = config.getString("akka.actor.provider")
   val httpConfig = config.getConfig("akka.actor").getString("provider")
 
-//  val interface = httpConfig.getString("interface")
-//  val port = httpConfig.getInt("port")
+  //  val interface = httpConfig.getString("interface")
+  //  val port = httpConfig.getInt("port")
   println(root + httpConfig + root2)
+}
+
+object CovariantContravariantTest extends App {
+
+  class First()
+
+  class Second() extends First
+
+  case class Covariant[+A]()
+
+  val a: Covariant[First] = Covariant[Second]()
+
+  //TODO: val a2: Covariant[Second] = Covariant[First]()
+  /*error: type mismatch;
+  found   : Covariant[AnyRef]
+  required: Covariant[String]
+  */
+  case class Contravariant[-A]()
+
+  val b: Contravariant[Second] = Contravariant[First]()
+
+  //TODO: val b2:Contravariant[First] = Contravariant[Second]()
+  /*error: type mismatch;
+  found   : Contravariant[String]
+  required: Contravariant[AnyRef]
+  */
+
+  //Contravariant
+  def test_1[T](d: List[T]) = d.size
+
+  def test_2(d: List[T forSome {type T}]) = d.size
+
+  def test_3(d: List[_]) = d.size
+
+}
+
+object ImplicitTest extends App {
+
+  case class A(int: Int)
+
+  implicit def objConvert(valur: A) = s"${valur.int} + 0_0"
+
+  implicit def intConvert(valur: String) =  valur.toInt + 2
+
+  println(A(25) + "df")
+  val res2: Int =  "5"
+  println(res2)
 }
 
 object Help {
@@ -28,7 +76,12 @@ object Help {
 object TestMap extends App {
   val m1: Map[String, Int] = Map.empty
   val m2: String Map Int = Map.empty
-  val tp1: (String,Int) = null
+  val tp1: (String, Int) = null
+
+  class A(value: Int) {
+    require(value > 10, "Value must be > 10")
+  }
+
 }
 
 object SprayJsonTest extends App {
@@ -158,6 +211,8 @@ object TaggetType2 extends App {
 
   type UserId = String @@ USER_ID
   type GroupId = String @@ GROUP_ID
+
+  //@@[String, GROUP_ID]
 
   case class User(id: UserId, name: String)
 
