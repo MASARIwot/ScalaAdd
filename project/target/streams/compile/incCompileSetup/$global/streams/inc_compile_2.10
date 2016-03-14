@@ -1,0 +1,120 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> D:\Scala\ScalaAdd\project\target\scala-2.10\sbt-0.13\classes
+compile options:
+0 items
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.10.4
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+5 items
+D:\Scala\ScalaAdd\project\Dependencies.scala -> D:\Scala\ScalaAdd\project\target\scala-2.10\sbt-0.13\classes\Dependencies$.class
+D:\Scala\ScalaAdd\project\Dependencies.scala -> D:\Scala\ScalaAdd\project\target\scala-2.10\sbt-0.13\classes\Dependencies$Compile$.class
+D:\Scala\ScalaAdd\project\Dependencies.scala -> D:\Scala\ScalaAdd\project\target\scala-2.10\sbt-0.13\classes\Dependencies$Test$.class
+D:\Scala\ScalaAdd\project\Dependencies.scala -> D:\Scala\ScalaAdd\project\target\scala-2.10\sbt-0.13\classes\Dependencies$Versions$.class
+D:\Scala\ScalaAdd\project\Dependencies.scala -> D:\Scala\ScalaAdd\project\target\scala-2.10\sbt-0.13\classes\Dependencies.class
+binary dependencies:
+4 items
+D:\Scala\ScalaAdd\project\Dependencies.scala -> C:\Program Files\Java\jdk1.8.0_74\jre\lib\rt.jar
+D:\Scala\ScalaAdd\project\Dependencies.scala -> C:\Users\OTretiak\.ivy2\cache\org.scala-sbt\ivy\jars\ivy-0.13.8.jar
+D:\Scala\ScalaAdd\project\Dependencies.scala -> C:\Users\OTretiak\.ivy2\cache\org.scala-sbt\sbt\jars\sbt-0.13.8.jar
+D:\Scala\ScalaAdd\project\Dependencies.scala -> C:\Users\OTretiak\.sbt\boot\scala-2.10.4\lib\scala-library.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+0 items
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+5 items
+D:\Scala\ScalaAdd\project\Dependencies.scala -> Dependencies
+D:\Scala\ScalaAdd\project\Dependencies.scala -> Dependencies$
+D:\Scala\ScalaAdd\project\Dependencies.scala -> Dependencies$Compile$
+D:\Scala\ScalaAdd\project\Dependencies.scala -> Dependencies$Test$
+D:\Scala\ScalaAdd\project\Dependencies.scala -> Dependencies$Versions$
+used names:
+26 items
+D:\Scala\ScalaAdd\project\Dependencies.scala -> %
+D:\Scala\ScalaAdd\project\Dependencies.scala -> %%
+D:\Scala\ScalaAdd\project\Dependencies.scala -> <init>
+D:\Scala\ScalaAdd\project\Dependencies.scala -> AnyRef
+D:\Scala\ScalaAdd\project\Dependencies.scala -> Compile
+D:\Scala\ScalaAdd\project\Dependencies.scala -> Dependencies
+D:\Scala\ScalaAdd\project\Dependencies.scala -> Seq
+D:\Scala\ScalaAdd\project\Dependencies.scala -> Test
+D:\Scala\ScalaAdd\project\Dependencies.scala -> Versions
+D:\Scala\ScalaAdd\project\Dependencies.scala -> apply
+D:\Scala\ScalaAdd\project\Dependencies.scala -> collection
+D:\Scala\ScalaAdd\project\Dependencies.scala -> package
+D:\Scala\ScalaAdd\project\Dependencies.scala -> sbt
+D:\Scala\ScalaAdd\project\Dependencies.scala -> scala
+D:\Scala\ScalaAdd\project\Dependencies.scala -> scalaMock
+D:\Scala\ScalaAdd\project\Dependencies.scala -> scalaVersion
+D:\Scala\ScalaAdd\project\Dependencies.scala -> scalatest
+D:\Scala\ScalaAdd\project\Dependencies.scala -> scalatestVersion
+D:\Scala\ScalaAdd\project\Dependencies.scala -> spray
+D:\Scala\ScalaAdd\project\Dependencies.scala -> sprayCan
+D:\Scala\ScalaAdd\project\Dependencies.scala -> sprayJson
+D:\Scala\ScalaAdd\project\Dependencies.scala -> sprayRouting
+D:\Scala\ScalaAdd\project\Dependencies.scala -> sprayTestKit
+D:\Scala\ScalaAdd\project\Dependencies.scala -> sprayVersion
+D:\Scala\ScalaAdd\project\Dependencies.scala -> testKit
+D:\Scala\ScalaAdd\project\Dependencies.scala -> toGroupID
+product stamps:
+5 items
+D:\Scala\ScalaAdd\project\target\scala-2.10\sbt-0.13\classes\Dependencies$.class -> lastModified(1457691147783)
+D:\Scala\ScalaAdd\project\target\scala-2.10\sbt-0.13\classes\Dependencies$Compile$.class -> lastModified(1457691147808)
+D:\Scala\ScalaAdd\project\target\scala-2.10\sbt-0.13\classes\Dependencies$Test$.class -> lastModified(1457691147847)
+D:\Scala\ScalaAdd\project\target\scala-2.10\sbt-0.13\classes\Dependencies$Versions$.class -> lastModified(1457691147864)
+D:\Scala\ScalaAdd\project\target\scala-2.10\sbt-0.13\classes\Dependencies.class -> lastModified(1457691147726)
+source stamps:
+1 items
+D:\Scala\ScalaAdd\project\Dependencies.scala -> hash(8279b643ad58686cef55035dec99b90f5d595795)
+binary stamps:
+4 items
+C:\Program Files\Java\jdk1.8.0_74\jre\lib\rt.jar -> lastModified(1456765700926)
+C:\Users\OTretiak\.ivy2\cache\org.scala-sbt\ivy\jars\ivy-0.13.8.jar -> lastModified(1430156161000)
+C:\Users\OTretiak\.ivy2\cache\org.scala-sbt\sbt\jars\sbt-0.13.8.jar -> lastModified(1429631014000)
+C:\Users\OTretiak\.sbt\boot\scala-2.10.4\lib\scala-library.jar -> lastModified(1395179187000)
+class names:
+4 items
+C:\Program Files\Java\jdk1.8.0_74\jre\lib\rt.jar -> java.lang.Object
+C:\Users\OTretiak\.ivy2\cache\org.scala-sbt\ivy\jars\ivy-0.13.8.jar -> sbt.impl.DependencyBuilders
+C:\Users\OTretiak\.ivy2\cache\org.scala-sbt\sbt\jars\sbt-0.13.8.jar -> sbt.package$
+C:\Users\OTretiak\.sbt\boot\scala-2.10.4\lib\scala-library.jar -> scala.collection.Seq
+internal apis:
+1 items
+D:\Scala\ScalaAdd\project\Dependencies.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHClETMAAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAInNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cL9BF8d0AAZub3RpZnlzcQB+AAxpEOS3dAAJc2NhbGF0ZXN0c3EAfgAMs1+ICHQACHNwcmF5Q2Fuc3EAfgAMQ+blR3QABHdhaXRzcQB+AAwZSi2+dAAJc2NhbGFNb2Nrc3EAfgAM2Y5KO3QADSRhc0luc3RhbmNlT2ZzcQB+AAznnJSGdAAMc3ByYXlWZXJzaW9uc3EAfgAMJTaV5XQABmVxdWFsc3NxAH4ADN+TTcp0AAxhc0luc3RhbmNlT2ZzcQB+AAyQutk4dAAIVmVyc2lvbnNzcQB+AAyn+umldAAMc3luY2hyb25pemVkc3EAfgAMnW1tVHQADERlcGVuZGVuY2llc3NxAH4ADMPyd+Z0AA0kaXNJbnN0YW5jZU9mc3EAfgAMmgvfIHQAB3Rlc3RLaXRzcQB+AAwL/2qudAAJc3ByYXlKc29uc3EAfgAMMmd9CXQADHNjYWxhVmVyc2lvbnNxAH4ADNNxw5d0AAlub3RpZnlBbGxzcQB+AAxLMdbJdAAMaXNJbnN0YW5jZU9mc3EAfgAM/9wE63QADHNwcmF5VGVzdEtpdHNxAH4ADG2dN490AAI9PXNxAH4ADAN83+x0AAVjbG9uZXNxAH4ADHczJdJ0AAdDb21waWxlc3EAfgAMCSb3VXQADHNwcmF5Um91dGluZ3NxAH4ADDriPYB0AARUZXN0c3EAfgAManjgmHQACHRvU3RyaW5nc3EAfgAMJGiBg3QABXNwcmF5c3EAfgAMcpbw/3QAAiE9c3EAfgAMaz1rMXQACGdldENsYXNzc3EAfgAMjsjxHXQAAm5lc3EAfgAMMEktRXQAAmVxc3EAfgAM8w/Ip3QAAiMjc3EAfgAMPPC3HnQACGZpbmFsaXplc3EAfgAMgK48YHQAEHNjYWxhdGVzdFZlcnNpb25zcQB+AAzYMhUudAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBbeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAcQB+ACV1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHABc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHBzcQB+AHIBc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AFtMAAlpbmhlcml0ZWRxAH4AW0wAB3BhcmVudHNxAH4AW3hxAH4AeXNxAH4AcgF1cQB+AFYAAAAAcHNxAH4AcgF1cQB+AFYAAAAAcHNxAH4AcgF1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AHh0AAZPYmplY3RzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AHhzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABGphdmFzcQB+AJF0AARsYW5nc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AJJzcQB+AIV0AANBbnlzcQB+AIlzcQB+AIx1cQB+AI8AAAACc3EAfgCRdAAFc2NhbGFxAH4AmHBwdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAABzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVNlKaridXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAPEQ6XFNjYWxhXFNjYWxhQWRkXHByb2plY3RcdGFyZ2V0XHNjYWxhLTIuMTBcc2J0LTAuMTNcY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFIJ5tkOtWGhs71UDXeyZuQ9dWVeV
+external apis:
+0 items
+source infos:
+1 items
+D:\Scala\ScalaAdd\project\Dependencies.scala -> 
+AAAAAAAAAAA=
+compilations:
+2 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABU2UmQNh1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPEQ6XFNjYWxhXFNjYWxhQWRkXHByb2plY3RcdGFyZ2V0XHNjYWxhLTIuMTBcc2J0LTAuMTNcY2xhc3Nlc3QAAS8=
+1 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABU2UpquJ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPEQ6XFNjYWxhXFNjYWxhQWRkXHByb2plY3RcdGFyZ2V0XHNjYWxhLTIuMTBcc2J0LTAuMTNcY2xhc3Nlc3QAAS8=

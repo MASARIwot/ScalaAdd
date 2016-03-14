@@ -25,13 +25,9 @@ object Problems extends App {
 object CovariantContravariantTest extends App {
 
   class First()
-
   class Second() extends First
-
   case class Covariant[+A]()
-
   val a: Covariant[First] = Covariant[Second]()
-
   //TODO: val a2: Covariant[Second] = Covariant[First]()
   /*error: type mismatch;
   found   : Covariant[AnyRef]
@@ -46,22 +42,16 @@ object CovariantContravariantTest extends App {
   found   : Contravariant[String]
   required: Contravariant[AnyRef]
   */
-
   //Contravariant
   def test_1[T](d: List[T]) = d.size
-
   def test_2(d: List[T forSome {type T}]) = d.size
-
   def test_3(d: List[_]) = d.size
-
 }
 
 object ImplicitTest extends App {
-
   case class A(int: Int)
 
   implicit def objConvert(valur: A) = s"${valur.int} + 0_0"
-
   implicit def intConvert(valur: String) =  valur.toInt + 2
 
   println(A(25) + "df")
