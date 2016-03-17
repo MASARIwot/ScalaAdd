@@ -9,14 +9,12 @@ import scala.collection.{mutable, immutable}
 
 object Problems extends App {
   //val myCfg =  ConfigFactory.parseFile(new File("worker/src/main/resources/reference.conf"))
-
   val config = ConfigFactory.load("application.conf")
   //"worker/src/main/resources")
   val config2 = ConfigFactory.load("fu.conf")
   val root2 = config2.getString("akka.actor.provider")
   val root = config.getString("akka.actor.provider")
   val httpConfig = config.getConfig("akka.actor").getString("provider")
-
   //  val interface = httpConfig.getString("interface")
   //  val port = httpConfig.getInt("port")
   println(root + httpConfig + root2)
@@ -25,11 +23,8 @@ object Problems extends App {
 object CovariantContravariantTest extends App {
 
   class First()
-
   class Second() extends First
-
   case class Covariant[+A]()
-
   val a: Covariant[First] = Covariant[Second]()
 
   //TODO: val a2: Covariant[Second] = Covariant[First]()
@@ -49,9 +44,7 @@ object CovariantContravariantTest extends App {
 
   //Contravariant
   def test_1[T](d: List[T]) = d.size
-
   def test_2(d: List[T forSome {type T}]) = d.size
-
   def test_3(d: List[_]) = d.size
 
 }
@@ -59,14 +52,16 @@ object CovariantContravariantTest extends App {
 object ImplicitTest extends App {
 
   case class A(int: Int)
-
   implicit def objConvert(valur: A) = s"${valur.int} + 0_0"
+  implicit def intConvert(valur: String) = valur.toInt + 2
 
-  implicit def intConvert(valur: String) =  valur.toInt + 2
+  def intConvert(valur: Int) = valur + 100
 
   println(A(25) + "df")
-  val res2: Int =  "5"
+  val res2: Int = "5"
   println(res2)
+  println(intConvert(25))
+  println(intConvert("25"))
 }
 
 object Help {
@@ -527,6 +522,19 @@ object P12 extends App {
   println(decode(List((4, 'a), (1, 'b), (2, 'c), (2, 'a), (1, 'd), (4, 'e))))
   println(decode_2(List((4, 'a), (1, 'b), (2, 'c), (2, 'a), (1, 'd), (4, 'e))))
 
+}
+
+object P11_2 extends App {
+  def encode[T](list: List[T]): List[(Int, T)] = {
+    list.foldLeft[List[(Int, T)]](Nil) {
+      case (k, v) => k.indexWhere(_._2 == v) match {
+        case -1 => (1, v) :: k
+        case index => k.updated(index, (k(index)._1 + 1, v))
+      }
+    }
+  }
+
+  println(encode(List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e)))
 }
 
 object P11 extends App {
