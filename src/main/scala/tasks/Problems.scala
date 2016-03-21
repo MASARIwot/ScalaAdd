@@ -25,9 +25,9 @@ object CovariantContravariantTest extends App {
   class First()
   class Second() extends First
   case class Covariant[+A]()
-  val a: Covariant[First] = Covariant[Second]()
+  val a: Covariant[AnyRef] = Covariant[String]()
 
-  //TODO: val a2: Covariant[Second] = Covariant[First]()
+  //TODO: val a2: Covariant[String] = Covariant[AnyRef]()
   /*error: type mismatch;
   found   : Covariant[AnyRef]
   required: Covariant[String]
@@ -59,9 +59,16 @@ object ImplicitTest extends App {
 
   println(A(25) + "df")
   val res2: Int = "5"
-  println(res2)
-  println(intConvert(25))
-  println(intConvert("25"))
+
+  val maa:Map[String, Int] = Map.empty
+  val maa2:Map[Int, String] = Map.empty
+    maa :: maa2 :: Nil foreach {
+      case _: Map[String, Int] => println("String Int")
+      case _: Map[Int, String] => println("Int")
+    }
+//  println(res2)
+//  println(intConvert(25))
+//  println(intConvert("25"))
 }
 
 object Help {
